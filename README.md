@@ -2,10 +2,12 @@
 
 ## Pretraining Parameter
 
-RGBD: [BaiduYun](https:), Google Drive()
-RGBT: [BaiduYun](https:), Google Drive()
+RGBD: [BaiduYun](https://pan.baidu.com/s/1c0WMb0ta4-5BS48g1-LSeg)[8egc], Google Drive(https://drive.google.com/drive/folders/1SCcU4U1mkCEwyOjYp1htq5s2jjV8s-px?usp=sharing)
+
+RGBT: [BaiduYun](https://pan.baidu.com/s/17mTHaB1urR_zlOZqWnDyTw)[7rjj], Google Drive(https://drive.google.com/drive/folders/1SCcU4U1mkCEwyOjYp1htq5s2jjV8s-px?usp=sharing)
 
 ## RGB-D Saliency map 
-[BaiduYun](https://pan.baidu.com/s/1SGCaB6RWW2wSeNaXy1zGqw)[提取码：98vm], Google Drive()
+[BaiduYun](https://pan.baidu.com/s/1SGCaB6RWW2wSeNaXy1zGqw)[98vm], Google Drive(https://drive.google.com/drive/folders/1SCcU4U1mkCEwyOjYp1htq5s2jjV8s-px?usp=sharing)
+
 ## RGB-T Saliency map         
-[BaiduYun](https:), Google Drive()
+[BaiduYun](https://pan.baidu.com/s/1lXRqHkY_SXXV9pPFfCl6ZQ)[26rd], Google Drive(https://drive.google.com/drive/folders/1SCcU4U1mkCEwyOjYp1htq5s2jjV8s-px?usp=sharing)
