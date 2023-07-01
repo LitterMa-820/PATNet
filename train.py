@@ -40,8 +40,8 @@ generator.cuda()
 
 generator_params = generator.parameters()
 generator_optimizer = torch.optim.Adam(generator_params, opt.lr_gen)
-save_path = './saved_models/FTN/'
-model_name = 'p3NetResearch3WODoubleBranch'
+save_path = './saved_models/p3Net'
+model_name = 'p3Net'
 min_mae = 1
 validation_step = 0
 train_loader = get_loader(image_root, gt_root, depth_root, batchsize=opt.batchsize, trainsize=opt.trainsize)

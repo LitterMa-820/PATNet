@@ -19,7 +19,7 @@ import ttach as tta
 results_save_path += 'predictions/'
 torch.manual_seed(118)
 # torch.cuda.set_device(0)
-ckpt_path = '../saved_models/FTN/'
+ckpt_path = '../saved_models/p3Net/'
 parser = argparse.ArgumentParser()
 parser.add_argument('--ss', type=str, help='snapshot')
 parser.add_argument('--modal', default='rgbd', type=str, help='rgbd or rgbt')
