@@ -1,4 +1,4 @@
-# P3Net: Using P2T from Patch to Pixel for RGB-D and RGB-T Saliency Object Detection
+# PATNet: Patch-to-pixel Attention-aware Transformer Network for RGB-D and RGB-T Salient Object Detection
 
 ## Datasets
 The training and testing datasets for RGBD and RGBT can be downloaded from the following links.
