@@ -12,7 +12,7 @@ import torch.nn.functional as F
 from torch.autograd import Variable
 from torch.cuda import amp
 from data_loader.rgb_d_loader import get_loader
-from models.p3Net import p3Net
+from models.PATNet import PATNet
 from utils.train_utils import adjust_lr, AvgMeter, save_checkpoint
 from validation import validation
 from torchvision.utils import make_grid
@@ -35,13 +35,13 @@ torch.cuda.manual_seed_all(118)
 opt = parser.parse_args()
 print('Generator Learning Rate: {}'.format(opt.lr_gen))
 # build models
-generator = p3Net('./saved_models/p2t_base.pth')
+generator = PATNet('./saved_models/p2t_base.pth')
 generator.cuda()
 
 generator_params = generator.parameters()
 generator_optimizer = torch.optim.Adam(generator_params, opt.lr_gen)
-save_path = './saved_models/p3Net'
-model_name = 'p3Net'
+save_path = './saved_models/PATNet'
+model_name = 'PATNet'
 min_mae = 1
 validation_step = 0
 train_loader = get_loader(image_root, gt_root, depth_root, batchsize=opt.batchsize, trainsize=opt.trainsize)
