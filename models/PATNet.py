@@ -3,7 +3,7 @@ from models.ShareAttCrossAttention import *
 from models.cross_scale_attention import *
 
 
-class p3Net(nn.Module):
+class PATNet(nn.Module):
     def __init__(self, path=None):
         super().__init__()
         layer_scale_init_value = 1e-6
