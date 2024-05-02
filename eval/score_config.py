@@ -3,7 +3,7 @@ import os
 import sys
 
 sys.path.append('..')
-from models.p3Net import p3Net
+from models.PATNet import PATNet
 
 
 dutrgbd_root_test = ''
@@ -38,7 +38,7 @@ results_save_path = os.path.join('..', 'results/')
 
 
 def getNet():
-    return p3Net(None).cuda()
+    return PATNet(None).cuda()
 
 
 def infer(net, rgb_trans, m_trans):
