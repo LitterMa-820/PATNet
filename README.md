@@ -6,6 +6,7 @@ The training and testing datasets for RGBD and RGBT can be downloaded from the f
 [RGBD](https://github.com/Xiaoqi-Zhao-DLUT/SSLSOD),[RGBT](https://github.com/lz118/RGBT-Salient-Object-Detection)
 
 ## Pretraining Parameter
+Backbone P2T weights: https://github.com/yuhuan-wu/P2T
 
 RGBD: [BaiduYun](https://pan.baidu.com/s/1c0WMb0ta4-5BS48g1-LSeg)[8egc], [Google Drive](https://drive.google.com/drive/folders/1SCcU4U1mkCEwyOjYp1htq5s2jjV8s-px?usp=sharing)
 
