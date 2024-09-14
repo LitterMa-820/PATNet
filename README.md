@@ -21,3 +21,17 @@ RGBT: [BaiduYun](https://pan.baidu.com/s/17mTHaB1urR_zlOZqWnDyTw)[7rjj], [Google
 ## validation
 The validation set is a randomly selected image from the test set
 [BaiduYun](https://pan.baidu.com/s/1H0xabp4E3yZvgEfG8E3gfQ)[s2ne], [Google Drive](https://drive.google.com/drive/folders/1SCcU4U1mkCEwyOjYp1htq5s2jjV8s-px?usp=sharing)
+
+### If you think this work is helpful, please cite
+
+```latex
+@article{jiang2024patnet,
+  title={PATNet: Patch-to-pixel attention-aware transformer network for RGB-D and RGB-T salient object detection},
+  author={Jiang, Mingfeng and Ma, Jianhua and Chen, Jiatong and Wang, Yaming and Fang, Xian},
+  journal={Knowledge-Based Systems},
+  volume={291},
+  pages={111597},
+  year={2024},
+  publisher={Elsevier}
+}
+```
